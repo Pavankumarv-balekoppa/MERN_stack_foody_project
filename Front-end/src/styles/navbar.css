@@ -1,0 +1,21 @@
+.navbar{
+    padding:10px 120px;
+    background-color: awhite;
+    display: flex;
+    align-items: center;
+}
+.links1 li{
+    display: inline-block;
+}
+.links1 a{
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 10px  20px ;
+    color: black;
+}
+.links1 a:hover{
+    background-color: rgb(238, 206, 165);
+    border-bottom:solid 2px black ;
+    border-radius: 20px;
+    transition: 0.5s;
+}

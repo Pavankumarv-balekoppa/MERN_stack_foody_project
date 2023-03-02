@@ -1,0 +1,14 @@
+.banner{
+    background-image: url("/public/images/i5.jpeg");
+    width: 75%;
+    margin-left: 150px;
+    height: 80vh;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 5px 5px 5px blue;
+    border: 1px solid blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,28 @@
+.login
+{
+    background-image: url(../../public/images/MERN\ final\ project.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.login h1{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 130px;
+   
+}
+#login1{
+    
+    background-color: rgba(175, 247, 247, 0.749);
+    padding: 20px 30px;
+    margin: auto;
+    position: relative;
+    top: 150px;
+  
+}
+#login1 button,input{
+    margin: 10px 0px;
+}

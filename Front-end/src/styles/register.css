@@ -1,0 +1,14 @@
+.sign1{
+    background-image: url(../../public/images/signup.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+}
+#sign2{
+    background-color: rgba(160, 248, 160, 0.623);
+    padding: 10px 20px;
+    margin: auto;
+    border-radius: 10px;
+}
