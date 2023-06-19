@@ -22,8 +22,6 @@ const Login = () => {
                 alert(res.data.message)
             }
         })
-
-
     }
 
     return (
@@ -40,7 +38,7 @@ const Login = () => {
                     <div className="login_button">
                         <button className="btn  btn-primary">Login</button>
                     </div>
-                    <div className="signUp_button ">
+                    <div className="signUp_button">
                         <p>Are you a new user?</p>
                         <Link className="btn btn-outline-primary" to="/Signup">Signn up</Link>
                     </div>

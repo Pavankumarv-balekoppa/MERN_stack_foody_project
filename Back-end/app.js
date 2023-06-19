@@ -1,4 +1,3 @@
-
 const express = require('express')
 const cors = require('cors')
 const app = express()
@@ -64,6 +63,16 @@ app.get('/posts', async (req,res)=>{
     try {
         const posts= await Post.find()
         res.send(posts)
+        // res.json(posts)
+    } catch (error) {
+        console.log(error);
+    }
+})
+
+app.get('/users', async (req,res)=>{
+    try {
+        const users= await User.find()
+        res.send(users)
     } catch (error) {
         console.log(error);
     }
@@ -80,7 +89,7 @@ app.get('/posts/:id', async (req,res)=>{
 })
 
 app.post('/add-posts', async (req, res) => {
-    let postData = new Post({
+    let postData = new Post({   //post is the model name
         author: req.body.author,
         title: req.body.title,
         summary: req.body.summary,
@@ -95,6 +104,8 @@ app.post('/add-posts', async (req, res) => {
         res.send({ messages: "Faild to poste" })
     }
 })
+
+
 app.listen(PORT, () => {
     console.log(`listening on port ${PORT}`);
 })

@@ -19,7 +19,6 @@ function App() {
         <Route path='/' element={<Login/>}/>
         <Route path='/Signup' element={<Register/>}/>
         <Route path='/home/*' element={<HomePortel/>}/>
-      
       </Routes>
       </BrowserRouter>
   

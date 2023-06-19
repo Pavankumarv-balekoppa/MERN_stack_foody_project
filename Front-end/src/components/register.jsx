@@ -28,8 +28,6 @@ const Register = () => {
     }
     return (
         <div className="sign1">
-
-
             <div className="card-body">
                 <h1 className="text-center">Sign Up</h1>
                 <form action="" onSubmit={handleSubmit} >

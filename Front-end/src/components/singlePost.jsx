@@ -28,15 +28,14 @@ const SinglePost = () => {
                         <img height={500} width={550} src={posts.image} alt="" />
                     </div>
                     <div className="details p-3">
-                        <h1>Title : {posts.title}</h1>
-                        <h1>Author : {posts.author}</h1>
-                        <h3>Summary :{posts.summary}</h3>
-                        <h4>Location :</h4>
-                        <iframe className="border m-5" frameborder="0">{posts.location}</iframe>
+                        <h1>{posts.title}</h1>
+                        <p><b> Summary :</b>{posts.summary}</p>
+                        <h3>Location :</h3>
+                        <iframe className="ms-5 ps-5" src={posts.location} width="400px" height={300} frameborder="0"></iframe>
                     </div>
                 </div>
                 <div className="bb text-center mb-3">
-                <Link className="btn btn-primary" to={`/home/food`} >Back</Link>
+                <Link className="btn btn-outline-primary ps-3" to={`/home/food`} >Back</Link>
                 </div>
             </div>
         </div>
